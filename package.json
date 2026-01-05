@@ -1,0 +1,23 @@
+{
+  "name": "marocco",
+  "version": "1.0.0",
+  "description": "Building a Project in Marroco",
+  "main": "index.js",
+  "scripts": {
+        "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devrazec/marocco.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devrazec/marocco/issues"
+  },
+  "homepage": "https://github.com/devrazec/marocco#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
