@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    :root {
+      --red: #9E1B1B;
+      --gold: #F2A93B;
+      --sand: #E6C27A;
+      --sky: #6FB6E9;
+      --white: #F7F3EB;
+      --black: #1A1A1A;
+      --earth: #8B5E3C;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: var(--white);
+      color: var(--black);
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 60px;
+    }
+
+    .hero {
+      padding: 120px 60px;
+      background: linear-gradient(180deg, var(--sky), var(--sand));
+    }
+
+    .hero h1 {
+      color: var(--red);
+      font-size: 3rem;
+    }
+
+    .btn {
+      background: var(--red);
+      color: white;
+      padding: 14px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: var(--gold);
+      color: var(--black);
+    }
+
+    .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: var(--white);
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+  color: var(--red);
+}
+
+.brand img {
+  height: 56px;
+}
+
+.hero-logo {
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <img src="assets/img/logo.png" alt="Go Adventures Morocco" class="logo">
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Tours</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <img src="assets/img/logo.png" class="hero-logo">
+  <h1>Discover Morocco Beyond the Guidebooks</h1>
+</section>
+
+</body>
+</html>
